@@ -4,20 +4,57 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
   <title>Lukas Personal Website</title>
 </head>
 <body>
+  <div class="navbar">
+    <span id="menu">Menu</span>
+  </div>
   <div class="top-container">
-    <h1>I am Lukas.</h1>
-    <p>a <span class="linux">linux</span> sysadmin.</p>
-    <img src="images/cloud.png" alt="Cloud">
-    <img src="images/mountain.png" alt="Mountain">
+    <img class="top-cloud" src="images/cloud.png" alt="Cloud">
+    <h1>I'm Lukas.</h1>
+    <h2>a <span class="linux">linux</span> sysadmin.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="Cloud">
+    <img class="mountain" src="images/mountain.png" alt="Mountain">
   </div>
   <div class="middle-container">
-
+    <div class="profile">
+      <img src="images/dog.png" alt="Dog" width="200" height="200" class="container-img">
+      <h2>Moin.</h2>
+      <p class="intro">I'm Lukas. Primarily I work as a Linux System engineer. Secondarily I am currently learning web dev.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img src="images/me.jpeg" alt="Me" width="200" height="200" class="container-img">
+        <h3>Linux</h3>
+        <p>I learned Linux about 10 Years ago. Now I am pretty good at it.</p>
+      </div>
+      <div class="skill-row">
+        <img src="images/profile.jpg" alt="Not supported" width="200" height="200" class="container-img">
+        <h3>Web Dev</h3>
+        <p>Welp, still learning</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I am mostly on Reddit and some Matrix Channels.</h3>
+      <p class="contact-message">You can find any additional contact methods down below. A simple mail will do. But be aware, that a response may take some time.</p>
+      <a class="btn" href="mailto:lukas@rabe.tech">CONTACT ME</a>
+    </div>
   </div>
+  
+  
   <div class="bottom-container">
-
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p>© Lukas Rabe</p>
   </div>
 </body>
 </html>
