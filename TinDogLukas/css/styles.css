@@ -8,8 +8,8 @@ body {
 }
 
 #iphone6 {
-  transform: rotate(20deg);
-  width: 80%;
+  transform: rotate(25deg);
+  width: 70%;
 }
 
 .container-fluid {
@@ -43,7 +43,7 @@ body {
 
 h1 {
   font-family: "Montserrat";
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 700;
 }
