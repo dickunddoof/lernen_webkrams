@@ -9,6 +9,7 @@ body {
 
 #iphone6 {
   transform: rotate(20deg);
+  width: 80%;
 }
 
 .container-fluid {
@@ -34,6 +35,10 @@ body {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
 h1 {
