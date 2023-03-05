@@ -7,17 +7,22 @@ body {
   color: white;
 }
 
-#iphone6 {
+.iphone6 {
   transform: rotate(25deg);
-  width: 70%;
+  width: 20%;
+  position: absolute;
+  right: 25%;
 }
 
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 /* Navigation Bar */
 
@@ -107,4 +112,13 @@ p {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
